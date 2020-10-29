@@ -1,0 +1,90 @@
+page-registrarse {
+    .logo{
+        margin: auto;
+        position: relative;
+        display: block;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        top: 10px;
+    }
+
+    .mes{
+        float: left;
+    }
+    .anio{
+        float: left;
+    }
+.botonCrearCuenta{
+    text-align: center;
+    top: 60px;
+    
+}
+ .date{
+    font-family: 'Roboto';
+   // font-family: bold 5em Arial, Helvetica, sans-serif;
+    color: #083f88;
+    font-size: 14px;
+    font-weight: bold;
+ }    
+ .password{
+    font-family: 'Roboto';
+    //font-family: bold 5em Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .usuario{
+    //font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .nombreCompleto{
+    font-family: 'Roboto';
+    //font-family: bold 5em Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    top: 40px;
+    color: #083f88;
+    font-weight: bold;
+ }
+ 
+ .divNC{
+     top: 20px;
+    background-color: transparent;
+ }
+ .divU{
+     top: 20px;
+     background-color: transparent;
+ }
+ .divP{
+     top: 20px;
+     background-color: transparent;
+ }
+ .divD{
+     top: 20px;
+     background-color: transparent;
+ }
+ .crearCuenta{
+     top: 20px;
+     background-color: #083f88;
+     border-radius: 20px;
+     height: 50px;
+ }
+ .registrarse{
+  background-image: url('../../assets/imgs/fondoBolas.jpg');
+  background-size: 100%;
+ }
+ .material-icons{
+    margin: auto;
+        position: relative;
+        display: block;
+        object-fit: cover;
+    color: #083f88;
+ }
+.form{
+    position: relative;
+    top: 0px;
+    right: 7px;
+}
+
+}

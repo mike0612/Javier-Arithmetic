@@ -1,0 +1,186 @@
+page-menu {
+.perfil{
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+.tutoriales{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.retos{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.libre{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.memoria{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: 5px solid white;
+}
+.ranking{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.perfilImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    
+    margin-top: 35px;
+    
+}
+.tutorialesImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    
+    margin-top: 35px;
+}
+.retosImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    
+    margin-top: 35px;
+}
+.libreImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    
+    margin-top: 35px;
+}
+.memoriaImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    border: 30px solid white;
+    margin-top: 35px;
+}
+.rankingImg{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    margin-top: 35px;
+}
+
+.container-flex-space{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 11vh; //check
+}
+
+.img-menu{
+    width: 25vw;
+    height: 18vh;
+    background: transparent;
+}
+
+.title-responsive{
+    font-size: 4vh;
+}
+
+.container-flex{
+    display: flex;
+    //justify-content: center;
+    justify-content: space-around;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 40vw;
+    margin-bottom: 3vh;
+}
+
+.border-circle{
+    border-radius: 1em;
+}
+
+.background-red{
+    background: rgba(253, 3, 3, .7);
+}
+.background-green{
+    background: rgba(42, 191, 2, .7);
+}
+.background-blue{
+    background: rgba(42, 191, 2, .7);
+}
+.background-purple{
+    background: rgba(120,10,250, .7);
+}
+.background-orange{
+    background: rgba(253, 97, 3, .7);
+}
+.background-brown{
+    background: rgba(253, 3, 3, .7);
+}
+
+.font-blue{
+    //color: rgb(50,50,150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.font-red{
+    //color: rgb(50, 50, 150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.font-green{
+    //color: rgb(50, 50, 150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.font-orange{
+    //color: rgb(50, 50, 150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.font-brown{
+    //color: rgb(50, 50, 150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.font-purple{
+    //color: rgb(50, 50, 150);
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.menu{
+    background-image: url('../../assets/imgs/fondoBolas.jpg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+}
+.header{
+    background-color: #083f88;
+}
+.botonMenu{
+    background-color: #083f88;
+}
+}
+
+

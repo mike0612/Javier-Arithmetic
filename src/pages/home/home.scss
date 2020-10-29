@@ -1,0 +1,102 @@
+page-home {
+  
+
+    .Home{
+      //background-image: url("../../assets/imgs/bolasPNG.png");
+      background-image: url("../../assets/imgs/fondoBolas.jpg");
+      /*background: -webkit-linear-gradient(90deg, #b6f0f8 30%, #deb8f8 70%);
+background: -moz-linear-gradient(90deg, #b6f0f8 30%, #deb8f8 70%);
+background: -ms-linear-gradient(90deg, #b6f0f8 30%, #deb8f8 70%);
+background: -o-linear-gradient(90deg, #b6f0f8 30%, #deb8f8 70%);
+background: linear-gradient(90deg, #daf3f7 30%, #eee0f8 70%);*/
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.logo{
+    margin: auto;
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    top: 65px;
+}
+.form{
+    position: relative;
+    top: 50px;
+    right: 7px;
+}
+.botonIngresar{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    //background-color: #083f88;
+    width: 100%;
+}
+.ingresar{
+    border-radius: 20px;
+    background-color: #083f88;
+    height: 50px;
+    font-weight: bold;
+}
+
+.botonRegistrarse{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: #083f88;
+    
+}
+.password{
+    //background-color: #191e24;
+    //background: linear-gradient(45deg, #b6f0f8 30%, #deb8f8 70%);
+    font-family: 'Roboto';
+    position: relative;
+        text-align: center;
+        //background-color: #daf3f7;
+        background-color: white;
+}
+.user{
+    //background-color: #191e24;
+   // background: linear-gradient(45deg, #b6f0f8 30%, #deb8f8 70%);
+    font-family: 'Roboto';
+    //background-color: #daf3f7;
+    background-color: white;
+}
+//.botonRegistrarseEtiqueta{
+    //font-family: 'Roboto Slab', serif;
+//}
+.labelPassword{
+    color: #083f88;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.labelUser{
+    color: #083f88;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.inputPassword{
+    color: black;
+    font-family: 'Roboto';
+   
+}
+.inputUser{
+    color: black;
+    font-family: 'Roboto';
+}
+.password{
+    background: inherit;
+background-color:transparent;
+}
+.user{
+    background: inherit;
+background-color:transparent;
+}
+.botonRegistrarseEtiqueta{
+    font-weight: bold;
+}
+}
